@@ -211,6 +211,21 @@ export default function Home() {
               </div>
             </div>
           </h2>
+          <div class="mb-6 flex">
+            <div>
+              <div class="recent mb-6">Recent works</div>
+              <p class="desc ">
+                As a tight-knit team of experts, we create memorable and
+                emotional websites, digital experiences, and native apps.
+                Discover the power of emotion-driven design with us.
+              </p>
+            </div>
+            <div class="flex flex-col lg:ml-auto">
+              <div class="hidden lg:block -mt-10 ml-auto">
+                Over 4 thrilling years of experience!
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </main>
