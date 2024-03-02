@@ -228,8 +228,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div id="sliderWrapper" class="relative my-6 lg:my-12  ">
-          <div class="swiper swiper-initialized swiper-horizontal swiper-backface-hidden overflow-hidden">
+        <div id="sliderWrapper" class="relative my-6 lg:my-12">
+          <div class="swiper swiper-initialized swiper-horizontal swiper-backface-hidden">
             <div
               class="swiper-wrapper flex"
               style={{
@@ -239,9 +239,9 @@ export default function Home() {
             >
               <SliderSwiper imageSrc="stemquest.png" />
               <SliderSwiper imageSrc="stemquest.png" />
-              <SliderSwiper imageSrc="stemquest.png" />
-              <SliderSwiper imageSrc="autosmith.png" />
               <SliderSwiper imageSrc="reema-holidays.png" />
+              <SliderSwiper imageSrc="greetify.png" />
+              <SliderSwiper imageSrc="bheeshma.png" />
             </div>
           </div>
           {/* <div

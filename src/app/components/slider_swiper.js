@@ -17,9 +17,9 @@ export default function SliderSwiper(props) {
             <img
               class="landing-hero-img z-[3] inset-0 w-full h-full object-cover absolute transition-opacity duration-500"
               src={props.imageSrc}
-              alt="Iconly"
+              alt={props.imageSrc}
             />
-            <video
+            {/* <video
               alt="Iconly"
               class="w-full h-full z-[2] object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-500  inset-0"
               loop=""
@@ -29,7 +29,7 @@ export default function SliderSwiper(props) {
                 src="https://dash.piqo.design/uploads/iconly_6789216206.mp4"
                 type="video/mp4"
               />
-            </video>
+            </video> */}
           </div>
         </div>
       </div>
