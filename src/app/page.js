@@ -84,15 +84,17 @@ export default function Home() {
           </button>
         </a>
         <div className="flex items-center gap-x-2">
-          <div className="btn btn-white !w-fit">
-            <span className="flex w-fit">Contact Us</span>
+          <div className="lg:flex hidden">
+            <div className="btn btn-white !w-fit">
+              <span className="flex w-fit">Contact Us</span>
+            </div>
           </div>
           <div className="btn btn-black">Submit your project</div>
         </div>
       </nav>
       <div class="h-[5.3125rem]  lg:h-[6.875rem]"></div>
-      <div className="landing pt-6">
-        <div className="px-12">
+      <div className="landing pt-6 lg:px-10">
+        <div className="lg:px-12 px-6">
           <h2 className="main-text mb-12">
             <div className="flex flex-wrap">
               <div

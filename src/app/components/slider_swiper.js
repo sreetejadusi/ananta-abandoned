@@ -1,7 +1,7 @@
 export default function SliderSwiper(props) {
   return (
     <div
-      class="swiper-slide swiper-slide-prev"
+      class="swiper-slide swiper-slide-prev shrink-0 w-[284.769px] lg:w-[unset]"
       style={{ "margin-right": "32px" }}
       data-swiper-slide-index="1"
     >
@@ -15,21 +15,18 @@ export default function SliderSwiper(props) {
             alt="Iconly"
           >
             <img
-              class="landing-hero-img z-[3] inset-0 w-full h-full object-cover absolute transition-opacity duration-500"
+              class="landing-hero-img z-[3] inset-0 w-full h-full object-cover absolute border-opacity-0 group-hover:opacity-0 transition-opacity duration-500"
               src={props.imageSrc}
               alt={props.imageSrc}
             />
-            {/* <video
+            <video
               alt="Iconly"
               class="w-full h-full z-[2] object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-500  inset-0"
               loop=""
               autoplay=""
             >
-              <source
-                src="https://dash.piqo.design/uploads/iconly_6789216206.mp4"
-                type="video/mp4"
-              />
-            </video> */}
+              <source src="maldives.mp4" type="video/mp4" />
+            </video>
           </div>
         </div>
       </div>
