@@ -2,6 +2,7 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import Image from "next/image";
+import SliderSwiper from "./components/slider_swiper";
 
 export default function Home() {
   useGSAP(() => {
@@ -39,7 +40,7 @@ export default function Home() {
       {/* <div class="z-2 absolute w-screen h-screen bg-black loader items-center flex justify-center">
         <img src="radhasundariyam.png" class="w-1/4" />
       </div> */}
-      <nav className="p-6 fixed items-center justify-between flex w-full">
+      <nav className="p-6 fixed items-center justify-between flex w-full z-10 bg-white">
         <div class="hidden lg:block  relative">
           <button class="hamburger flex cursor-pointer rounded-full">
             <svg
@@ -222,10 +223,34 @@ export default function Home() {
             </div>
             <div class="flex flex-col lg:ml-auto">
               <div class="hidden lg:block -mt-10 ml-auto">
-                Over 4 thrilling years of experience!
+                {/* Over 4 thrilling years of experience! */}
               </div>
             </div>
           </div>
+        </div>
+        <div id="sliderWrapper" class="relative my-6 lg:my-12  ">
+          <div class="swiper swiper-initialized swiper-horizontal swiper-backface-hidden overflow-hidden">
+            <div
+              class="swiper-wrapper flex"
+              style={{
+                "transition-duration": "0ms",
+                transform: "translate3d(-1024px, 0px, 0px)",
+              }}
+            >
+              <SliderSwiper imageSrc="stemquest.png" />
+              <SliderSwiper imageSrc="stemquest.png" />
+              <SliderSwiper imageSrc="stemquest.png" />
+              <SliderSwiper imageSrc="autosmith.png" />
+              <SliderSwiper imageSrc="reema-holidays.png" />
+            </div>
+          </div>
+          {/* <div
+            class="!hidden lg:!flex  slider-btn-wrapper pad_layout"
+            style="pointer-events: none;"
+          >
+            <div id="nextBtnslide" class="slider-btn" style="scale: 0;"></div>
+            <div id="prevBtnslide" class="slider-btn" style="scale: 0;"></div>
+          </div> */}
         </div>
       </div>
     </main>
