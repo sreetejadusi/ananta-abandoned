@@ -1,31 +1,25 @@
+import Image from "next/image";
+
 export default function SliderSwiper(props) {
   return (
-    <div
-      class="swiper-slide swiper-slide-prev shrink-0 w-[284.769px] lg:w-[unset]"
-      style={{ "margin-right": "32px" }}
-      data-swiper-slide-index="1"
-    >
+    <div class="swiper-slide">
       <div class="hover:scale-105 transition-transform duration-300">
-        <div
-          tabindex="0"
-          class="slide h-[15rem] lg:h-[unset] lg:w-[30rem] overflow-hidden lg:aspect-[1.4] "
-        >
-          <div
-            class="h-full group  flex overflow-hidden relative rounded-[1.5rem] w-full landing-hero-img "
-            alt="Iconly"
-          >
-            <img
-              class="landing-hero-img z-[3] inset-0 w-full h-full object-cover absolute border-opacity-0 group-hover:opacity-0 transition-opacity duration-500"
+        <div class="slide h-[15rem] lg:h-[unset] overflow-hidden lg:aspect-[1.4]">
+          <div class="h-full flex overflow-hidden group relative rounded-[1.5rem] w-full">
+            <Image
+              class="z-[3] inset-0 w-full h-full  object-cover absolute border-opacity-0 group-hover:opacity-0 transition-opacity duration-500"
               src={props.imageSrc}
-              alt={props.imageSrc}
+              alt="Website"
+              width={500}
+              height={200}
             />
             <video
-              alt="Iconly"
-              class="w-full h-full z-[2] object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-500  inset-0"
+              alt="Skale"
+              class="w-full h-full z-[2] object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-500 inset-0"
               loop=""
-              autoplay=""
+              autoplay={true}
             >
-              <source src="maldives.mp4" type="video/mp4" />
+              <source src="maldives.mp4" type="video/mp4"></source>
             </video>
           </div>
         </div>
