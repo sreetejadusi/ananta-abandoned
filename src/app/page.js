@@ -380,7 +380,7 @@ export default function Home() {
               </a>
             </div>
             <div class="flex-col flex lg:grid lg:grid-cols-3 gap-8 ">
-              <a href="https://iconly.pro">
+              <a href="https://stemquest.theananta.in">
                 <div class="styles_product___o3HF">
                   <div class="img-container mb-4">
                     <img src="stemquest.png" alt="" />
@@ -422,7 +422,7 @@ export default function Home() {
                   </div>
                 </div>
               </a>
-              <a href="https://piqodesign.gumroad.com/l/iconly3d">
+              <a href="https://autosmith.theananta.in">
                 <div class="styles_product___o3HF">
                   <div class="img-container mb-4">
                     <img src="autosmith.png" alt="AutoSmith Image" />
@@ -462,7 +462,7 @@ export default function Home() {
                   </div>
                 </div>
               </a>
-              <a href="https://piqodesign.gumroad.com/l/DeliveryIllustration">
+              <a href="https://handbaked.theananta.in">
                 <div class="styles_product___o3HF">
                   <div class="img-container mb-4">
                     <img src="bakery.png" alt="" />
@@ -506,7 +506,7 @@ export default function Home() {
             <a class="!block mt-8 lg:!hidden" href="/products">
               <div class="flex !gap-4 more-btn  style_container__ZhG39">
                 <span class="initial items-center z-[2] flex gap-2 items-center">
-                  More Assets
+                  More Projects
                   <svg
                     width="24"
                     height="24"
