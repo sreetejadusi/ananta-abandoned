@@ -149,7 +149,7 @@ export default function Home() {
                       <div autoplay="" class=" w-8">
                         <img src="dribble.svg" />
                       </div>
-                      Ananta's Dribbble
+                      Ananta&apos;s Dribbble
                     </span>
                     <span
                       aria-hidden="true"
@@ -158,7 +158,7 @@ export default function Home() {
                       <div autoplay="" class=" w-8">
                         <img src="dribble.svg" />
                       </div>
-                      Ananta's Dribbble
+                      Ananta&apos;s Dribbble
                     </span>
                     <span class="flex !gap-4 drible-btn  !mb-0 bg-box absolute !w-full h-full"></span>
                   </div>
