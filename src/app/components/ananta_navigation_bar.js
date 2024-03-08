@@ -23,11 +23,60 @@ export default function AnantaNavigationBar() {
       </a>
       <div className="flex items-center gap-x-2">
         <div className="phone:flex hidden">
-          <div className="btn btn-white !w-fit">
-            <span className="flex w-fit">Contact Us</span>
+          <div className="btn btn-white !w-fit style_container__ZhG39">
+            <div className="initial">
+              <span className="flex w-fit">Contact us</span>
+            </div>
+
+            <div className="secondary" aria-hidden="true">
+              <span className="flex w-fit">Contact us</span>
+            </div>
           </div>
         </div>
-        <div className="btn btn-black">Submit your project</div>
+
+        <div>
+          <a tabindex="0" href="/submit-project">
+            <div class="btn btn-black style_container__ZhG39">
+              <span class="initial items-center z-[2] flex gap-2 items-center">
+                <div class="w-8 hidden lg:block">
+                  <img src="party_popper.svg" />
+                </div>
+                Submit your project
+              </span>
+              <span
+                aria-hidden="true"
+                class="secondary  h-full z-[2] flex gap-2 items-center"
+              >
+                <div class="flex gap-2.5">
+                  Let's make it together!
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M8.34106 6.02155L18 6.00006L17.9796 15.6602"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                    <path
+                      d="M18 6.00153L6.00043 18"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </div>
+              </span>
+              <span class="btn btn-black !mb-0 bg-box absolute !w-full h-full"></span>
+            </div>
+          </a>
+        </div>
         <div className="phone:hidden">
           <HamburgerMenu />
         </div>
