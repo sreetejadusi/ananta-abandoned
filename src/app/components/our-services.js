@@ -12,7 +12,7 @@ export default function OurServices() {
             <img src="unlock.svg" />
           </div>
         </span>{" "}
-        your design potential with our studio's expertise
+        your design potential with our studio&apos;s expertise
       </div>
       <div class="projects grid grid-cols-2 lg:grid-cols-5 gap-x-4 gap-y-6">
         <div class="project cursor-pointer">

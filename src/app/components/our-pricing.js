@@ -35,7 +35,7 @@ export default function OurPricing() {
               </div>
               <div class="second md:min-w-[50%] py-8 px-6 xl:p-12 flex flex-col flex-grow">
                 <div class="font-semibold mb-6 md:text-24">
-                  What's included:
+                  What&apos;s included:
                 </div>
                 <ul class="font-medium list-disc md:text-20 pl-4 flex-grow flex flex-col justify-between ">
                   <li>One request at a time</li>
@@ -129,7 +129,7 @@ export default function OurPricing() {
               </div>
               <div class="second  md:min-w-[50%] py-8 px-6 xl:p-12 flex flex-col flex-grow">
                 <div class="font-semibold mb-6 md:text-24">
-                  What's included:
+                  What&apos;s included:
                 </div>
                 <ul class="font-medium list-disc md:text-20 pl-4 flex-grow flex flex-col justify-between ">
                   <li>One request at a time</li>
@@ -172,7 +172,7 @@ export default function OurPricing() {
               </div>
               <div class="second  md:min-w-[50%] py-8 px-6 xl:p-12 flex flex-col flex-grow">
                 <div class="font-semibold mb-6 md:text-24">
-                  What's included:
+                  What&apos;s included:
                 </div>
                 <ul class="font-medium list-disc md:text-20 pl-4 flex-grow flex flex-col justify-between ">
                   <li>One request at a time</li>

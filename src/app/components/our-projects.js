@@ -39,7 +39,7 @@ export default function OurProjets() {
                 aria-hidden="true"
                 class="secondary  h-full z-[2] flex gap-2 items-center"
               >
-                Ideas's Infinte
+                Ideas&apos;s Infinte
                 <svg
                   width="24"
                   height="24"

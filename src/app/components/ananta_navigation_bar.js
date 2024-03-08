@@ -48,7 +48,7 @@ export default function AnantaNavigationBar() {
                 class="secondary  h-full z-[2] flex gap-2 items-center"
               >
                 <div class="flex gap-2.5">
-                  Let's make it together!
+                  Let&apos;s make it together!
                   <svg
                     width="24"
                     height="24"
