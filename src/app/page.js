@@ -78,6 +78,11 @@ export default function Home() {
       { rotate: 360, duration: 54, repeat: -1 }
     );
     const tl = gsap.globalTimeline
+      .fromTo(
+        ".web-curtain",
+        { y: 0 },
+        { y: "-100%", ease: "Power4.easeOut", stagger: 0.13, duration: 2 }
+      )
       // .fromTo(
       //   ".loader",
       //   { y: 0 },
@@ -129,6 +134,14 @@ export default function Home() {
   });
   return (
     <main className="">
+      <div className="web-curtain fixed top-0 w-full h-full z-[35] bg-black flex items-center justify-center flex-col">
+        <div className="flex flex-col w-[30%] text-white">
+          <img src="white-logo.svg" className="w-full" />
+          <div className="text-2xl -translate-y-2 opacity-60">
+            be limitless.
+          </div>
+        </div>
+      </div>
       {/* <div class="z-2 absolute w-screen h-screen bg-black loader items-center flex justify-center">
         <img src="radhasundariyam.png" class="w-1/4" />
       </div> */}
