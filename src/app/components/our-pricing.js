@@ -14,11 +14,7 @@ export default function OurPricing() {
                 <div class="font-semibold text-32 md:text-48 mb-8 xl:mb-12">
                   ₹10,000/m
                 </div>
-                <a
-                  target="_blank"
-                  class="mt-auto"
-                  href="https://piqodesign.gumroad.com/l/membership"
-                >
+                <a target="_blank" class="mt-auto" href="">
                   <div class="btn !w-full bg-black text-white text-14 md:text-[.875rem] font-semibold style_container__ZhG39">
                     <span class="initial items-center z-[2] flex gap-2 items-center">
                       Get Started
@@ -79,11 +75,7 @@ export default function OurPricing() {
                 <div class="mb-8 md:text-24 font-medium">
                   Learn more about how our studio works and how it can help you.
                 </div>
-                <a
-                  class="mt-auto"
-                  target="_blank"
-                  href="https://calendly.com/piqo-studio/clients"
-                >
+                <a class="mt-auto" target="_blank" href="">
                   <div class="btn mt-auto !w-full bg-black text-white text-14 md:text-[.875rem]   font-semibold style_container__ZhG39">
                     <span class="initial items-center z-[2] flex gap-2 items-center">
                       Book a call
@@ -108,11 +100,7 @@ export default function OurPricing() {
                 <div class="font-semibold text-32 md:text-48 mb-6 xl:mb-12">
                   ₹25,000/m
                 </div>
-                <a
-                  target="_blank"
-                  class="mt-auto"
-                  href="https://piqodesign.gumroad.com/l/membership"
-                >
+                <a target="_blank" class="mt-auto" href="">
                   <div class="btn !w-full bg-white text-black  text-14 md:text-[.875rem] font-semibold style_container__ZhG39">
                     <span class="initial items-center z-[2] flex gap-2 items-center">
                       Get Started
@@ -151,11 +139,7 @@ export default function OurPricing() {
                 <div class="font-semibold text-32 md:text-48 mb-6 xl:mb-12">
                   ₹35,000/m
                 </div>
-                <a
-                  target="_blank"
-                  class="mt-auto"
-                  href="https://piqodesign.gumroad.com/l/membership"
-                >
+                <a target="_blank" class="mt-auto" href="">
                   <div class="btn !w-full bg-white text-black  text-14 md:text-[.875rem] font-semibold style_container__ZhG39">
                     <span class="initial items-center z-[2] flex gap-2 items-center">
                       Get Started
