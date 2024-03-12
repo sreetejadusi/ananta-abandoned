@@ -17,35 +17,45 @@ export default function OurServices() {
       <div class="projects grid grid-cols-2 lg:grid-cols-5 gap-x-4 gap-y-6">
         <div class="project cursor-pointer">
           <button class="sqr">
-            <div autoplay="" class="w-10  lg:w-16"></div>
+            <div autoplay="" class="w-10  lg:w-16">
+              <img src="pen_tool.svg" />
+            </div>
           </button>
           <div class="title">Illustrations</div>
           <div></div>
         </div>
         <div class="project cursor-pointer">
           <button class="sqr ">
-            <div autoplay="" class="w-10  lg:w-16"></div>
+            <div autoplay="" class="w-10  lg:w-16">
+              <img src="marketing.svg" />
+            </div>
           </button>
           <div class="title">Marketing</div>
           <div></div>
         </div>
         <div class="project cursor-pointer">
           <button class="sqr ">
-            <div autoplay="" class="w-10  lg:w-16"></div>
+            <div autoplay="" class="w-10  lg:w-16">
+              <img src="development.svg" />
+            </div>
           </button>
           <div class="title">Development</div>
           <div></div>
         </div>
         <div class="project cursor-pointer">
           <button class="sqr ">
-            <div autoplay="" class="w-10  lg:w-16"></div>
+            <div autoplay="" class="w-10  lg:w-16">
+              <img src="product-design.svg" />
+            </div>
           </button>
           <div class="title">Product Design</div>
           <div></div>
         </div>
         <div class="project cursor-pointer">
           <button class="sqr ">
-            <div autoplay="" class="w-10  lg:w-16"></div>
+            <div autoplay="" class="w-10  lg:w-16">
+              <img src="branding.svg" />
+            </div>
           </button>
           <div class="title">Branding</div>
           <div></div>
