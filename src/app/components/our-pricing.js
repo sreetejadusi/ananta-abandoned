@@ -1,4 +1,8 @@
+"use client";
+import { useState } from "react";
+
 export default function OurPricing() {
+  const [isDiscounted, setDiscount] = useState(false);
   return (
     <div class="fold">
       <div class="pad_layout">
@@ -12,9 +16,21 @@ export default function OurPricing() {
                   Ignite your startup with a professional design team.
                 </div>
                 <div class="font-semibold text-32 md:text-48 mb-8 xl:mb-12">
-                  ₹10,000/m
+                  {isDiscounted ? "₹12,000/m" : "₹16,000/m"}
                 </div>
-                <a target="_blank" class="mt-auto" href="">
+                <div
+                  target="_blank"
+                  class="mt-auto"
+                  onClick={() => {
+                    let person = prompt("Please enter your coupon code", "");
+                    if (person == "ANANTA20") {
+                      alert("Discount applied!");
+                      setDiscount(true);
+                    } else {
+                      setDiscount(false);
+                    }
+                  }}
+                >
                   <div class="btn !w-full bg-black text-white text-14 md:text-[.875rem] font-semibold style_container__ZhG39">
                     <span class="initial items-center z-[2] flex gap-2 items-center">
                       Get Started
@@ -27,7 +43,7 @@ export default function OurPricing() {
                     </span>
                     <span class="btn !w-full bg-black text-white text-14 md:text-[.875rem] font-semibold !mb-0 bg-box absolute !w-full h-full"></span>
                   </div>
-                </a>
+                </div>
               </div>
               <div class="second md:min-w-[50%] py-8 px-6 xl:p-12 flex flex-col flex-grow">
                 <div class="font-semibold mb-6 md:text-24">
@@ -98,7 +114,7 @@ export default function OurPricing() {
                   Experience the Power of Collaboration and Excellence!
                 </div>
                 <div class="font-semibold text-32 md:text-48 mb-6 xl:mb-12">
-                  ₹25,000/m
+                  {isDiscounted ? "₹25,000/m" : "₹35,000/m"}
                 </div>
                 <a target="_blank" class="mt-auto" href="">
                   <div class="btn !w-full bg-white text-black  text-14 md:text-[.875rem] font-semibold style_container__ZhG39">
@@ -137,7 +153,7 @@ export default function OurPricing() {
                   Design + Product Development utilizing top expertise.
                 </div>
                 <div class="font-semibold text-32 md:text-48 mb-6 xl:mb-12">
-                  ₹35,000/m
+                  {isDiscounted ? "₹35,000/m" : "₹50,000/m"}
                 </div>
                 <a target="_blank" class="mt-auto" href="">
                   <div class="btn !w-full bg-white text-black  text-14 md:text-[.875rem] font-semibold style_container__ZhG39">

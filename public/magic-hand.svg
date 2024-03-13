@@ -1,0 +1,59 @@
+<svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          viewBox="0 0 512 512"
+                          width="512"
+                          height="512"
+                          preserveAspectRatio="xMidYMid meet"
+                        >
+                          <defs>
+                            <clipPath id="__lottie_element_465">
+                              <rect width="512" height="512" x="0" y="0"></rect>
+                            </clipPath>
+                          </defs>
+                          <g clip-path="url(#__lottie_element_465)">
+                            <g
+                              transform="matrix(0.7052066922187805,-0.7090017795562744,0.7090017795562744,0.7052066922187805,280.1153869628906,300.05560302734375)"
+                              opacity="1"
+                            >
+                              <path
+                                stroke-linecap="round"
+                                stroke-linejoin="miter"
+                                fill-opacity="0"
+                                stroke-miterlimit="4"
+                                stroke="rgb(0,0,0)"
+                                stroke-opacity="1"
+                                stroke-width="41.2"
+                                d=" M0,90.95 C0,90.95 -0.03,225.5 -0.03,225.5"
+                              ></path>
+                              <g
+                                opacity="1"
+                                transform="matrix(1,0,0,0.9984870553016663,0,0.3404083251953125)"
+                              ></g>
+                            </g>
+                            <g
+                              transform="matrix(0.7052066922187805,-0.7090017795562744,0.7090017795562744,0.7052066922187805,280.1153869628906,300.05560302734375)"
+                              opacity="1"
+                            >
+                              <path
+                                stroke-linecap="round"
+                                stroke-linejoin="miter"
+                                fill-opacity="0"
+                                stroke-miterlimit="4"
+                                stroke="rgb(0,0,0)"
+                                stroke-opacity="1"
+                                stroke-width="41.2"
+                                d=" M-125.6,-170.42 C-117.04,-161.86 -106.97,-151.81 -96.34,-141.18 M-177.44,-44.76 C-165.33,-44.75 -151.08,-44.75 -136.04,-44.74 M-125.63,80.92 C-117.07,72.37 -106.99,62.32 -96.35,51.7 M126.09,80.95 C117.52,72.39 107.46,62.33 96.82,51.71 M177.92,-44.71 C165.81,-44.72 151.56,-44.72 136.52,-44.73 M125.84,-170.45 C117.27,-161.9 107.19,-151.85 96.55,-141.23 M0.05,-222.19 C0.05,-210.1 0.04,-195.87 0.04,-180.85"
+                              ></path>
+                              <g
+                                opacity="1"
+                                transform="matrix(1,0,0,0.998487114906311,0,0.3402099609375)"
+                              >
+                                <g
+                                  opacity="1"
+                                  transform="matrix(1.0025806427001953,0,0,1.0025806427001953,-0.0005651563405990601,0.11668014526367188)"
+                                ></g>
+                              </g>
+                            </g>
+                          </g>
+                        </svg>
