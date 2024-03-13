@@ -561,7 +561,7 @@ export default function Home() {
                 <button class="styles_container__cAeIB">
                   <div class="flex gap-2 items-center justify-between">
                     <div class="title text-16 md:text-24 font-medium">
-                      What happens if I don't like the output?
+                      What happens if I don&apos;t like the output?
                     </div>
                     <div class="icon">
                       <div class="icon">
