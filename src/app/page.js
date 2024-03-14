@@ -688,7 +688,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div class="fold">
+          {/* <div class="fold">
             <div class="py-12">
               <div class="marquee-container">
                 <div class="marquee">
@@ -879,7 +879,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div class="fold">
             <div class="styles_container__lqnx9">
               <div class="wrapper wrapper-height h-[25rem] relative overflow-hidden">

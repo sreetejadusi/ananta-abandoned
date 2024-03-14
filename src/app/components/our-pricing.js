@@ -15,9 +15,23 @@ export default function OurPricing() {
                 <div class="font-medium md:text-24 mb-8 md:mb-4 xl:mb-8">
                   Ignite your startup with a professional design team.
                 </div>
-                <div class="font-semibold text-32 md:text-48 mb-8 xl:mb-12">
+                <div
+                  class={`font-semibold text-32 md:text-48 ${
+                    isDiscounted ? "" : "mb-8 xl:mb-12"
+                  }`}
+                >
                   {isDiscounted ? "₹16,000/m" : "₹18,000/m"}
                 </div>
+                {isDiscounted && (
+                  <div class="text-16 md:text-24 mb-8 xl:mb-12 flex items-center">
+                    <span className="line-through decoration-2 opacity-40">
+                      ₹18,000/m
+                    </span>{" "}
+                    <p className="bg-black px-3 py-[0.4rem] ml-2 rounded-full text-white text-[10px] items-center w-max h-min">
+                      (20% off)
+                    </p>
+                  </div>
+                )}
                 <div
                   target="_blank"
                   class="mt-auto"
@@ -113,9 +127,24 @@ export default function OurPricing() {
                 <div class="font-medium md:text-24 mb-8 md:mb-4 xl:mb-8">
                   Experience the Power of Collaboration and Excellence!
                 </div>
-                <div class="font-semibold text-32 md:text-48 mb-6 xl:mb-12">
+
+                <div
+                  class={`font-semibold text-32 md:text-48 ${
+                    isDiscounted ? "" : "mb-8 xl:mb-12"
+                  }`}
+                >
                   {isDiscounted ? "₹25,000/m" : "₹35,000/m"}
                 </div>
+                {isDiscounted && (
+                  <div class="text-16 md:text-24 mb-8 xl:mb-12 flex items-center">
+                    <span className="line-through decoration-2 opacity-40">
+                      ₹35,000/m
+                    </span>{" "}
+                    <p className="bg-black px-3 py-[0.4rem] ml-2 rounded-full text-white text-[10px] items-center w-max h-min">
+                      (20% off)
+                    </p>
+                  </div>
+                )}
                 <a target="_blank" class="mt-auto" href="">
                   <div class="btn !w-full bg-white text-black  text-14 md:text-[.875rem] font-semibold style_container__ZhG39">
                     <span class="initial items-center z-[2] flex gap-2 items-center">
@@ -152,9 +181,24 @@ export default function OurPricing() {
                 <div class="font-medium md:text-24 mb-8 md:mb-4 xl:mb-8">
                   Design + Product Development utilizing top expertise.
                 </div>
-                <div class="font-semibold text-32 md:text-48 mb-6 xl:mb-12">
+
+                <div
+                  class={`font-semibold text-32 md:text-48 ${
+                    isDiscounted ? "" : "mb-8 xl:mb-12"
+                  }`}
+                >
                   {isDiscounted ? "₹35,000/m" : "₹50,000/m"}
                 </div>
+                {isDiscounted && (
+                  <div class="text-16 md:text-24 mb-8 xl:mb-12 flex items-center">
+                    <span className="line-through decoration-2 opacity-40">
+                      ₹50,000/m
+                    </span>{" "}
+                    <p className="bg-white px-3 py-[0.4rem] ml-2 rounded-full text-black text-[10px] items-center w-max h-min">
+                      (20% off)
+                    </p>
+                  </div>
+                )}
                 <a target="_blank" class="mt-auto" href="">
                   <div class="btn !w-full bg-white text-black  text-14 md:text-[.875rem] font-semibold style_container__ZhG39">
                     <span class="initial items-center z-[2] flex gap-2 items-center">
