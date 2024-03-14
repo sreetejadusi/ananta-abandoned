@@ -8,6 +8,7 @@ import { Navigation } from "swiper/modules";
 import Swiper from "swiper";
 import "swiper/css";
 // import { useEffect, useRef } from "react";
+import { useState } from "react";
 import LandingHero from "./components/landing/hero";
 import AnantaNavigationBar from "./components/ananta_navigation_bar";
 import SliderSwiper from "./components/slider_swiper";
@@ -70,6 +71,9 @@ export default function Home() {
   //     },
   //   });
   // });
+
+  const [selectedFAQ, setSelectedFAQ] = useState(-1);
+
   useGSAP(() => {
     gsap.registerPlugin(ScrollTrigger);
     gsap.globalTimeline.fromTo(
@@ -145,8 +149,7 @@ export default function Home() {
       {/* <div class="z-2 absolute w-screen h-screen bg-black loader items-center flex justify-center">
         <img src="radhasundariyam.png" class="w-1/4" />
       </div> */}
-      <AnantaNavigationBar />
-      <div class="h-[5.3125rem]  lg:h-[6.875rem]"></div>
+
       <div className="flex flex-col gap-12 lg:gap-[6.25rem]">
         <div className="landing pt-6">
           <div className="xl:px-[5.5rem] lg:px-14 px-6">
@@ -521,7 +524,12 @@ export default function Home() {
                 </h3>
               </div>
               <div class="flex flex-col gap-4 ">
-                <button class="styles_container__cAeIB">
+                <button
+                  class="styles_container__cAeIB"
+                  onClick={() => {
+                    setSelectedFAQ(selectedFAQ === 0 ? -1 : 0);
+                  }}
+                >
                   <div class="flex gap-2 items-center justify-between">
                     <div class="title text-16 md:text-24 font-medium">
                       What expertise does our team have?
@@ -533,13 +541,22 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div class="answer text-14 md:text-20   ">
+                  <div
+                    class={`answer text-14 md:text-20 ${
+                      selectedFAQ === 0 ? "active mt-3 md:mt-5" : ""
+                    }`}
+                  >
                     Our team consists of experts in various fields such as
                     Product Design, 3D, Animation, and Development, covering all
                     the expertise you need for your product.
                   </div>
                 </button>
-                <button class="styles_container__cAeIB">
+                <button
+                  class="styles_container__cAeIB"
+                  onClick={() => {
+                    setSelectedFAQ(selectedFAQ === 1 ? -1 : 1);
+                  }}
+                >
                   <div class="flex gap-2 items-center justify-between">
                     <div class="title text-16 md:text-24 font-medium">
                       How does collaboration begin after purchasing a
@@ -552,13 +569,22 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div class="answer text-14 md:text-20   ">
+                  <div
+                    class={`answer text-14 md:text-20 ${
+                      selectedFAQ === 1 ? "active mt-3 md:mt-5" : ""
+                    }`}
+                  >
                     It is recommended to schedule a session with us through
                     Calendly before making any payment. We will then contact you
                     to move the project forward after payment.
                   </div>
                 </button>
-                <button class="styles_container__cAeIB">
+                <button
+                  class="styles_container__cAeIB"
+                  onClick={() => {
+                    setSelectedFAQ(selectedFAQ === 2 ? -1 : 2);
+                  }}
+                >
                   <div class="flex gap-2 items-center justify-between">
                     <div class="title text-16 md:text-24 font-medium">
                       What happens if I don&apos;t like the output?
@@ -570,12 +596,21 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div class="answer text-14 md:text-20   ">
+                  <div
+                    class={`answer text-14 md:text-20 ${
+                      selectedFAQ === 2 ? "active mt-3 md:mt-5" : ""
+                    }`}
+                  >
                     Our team considers customer feedback in 2-3 stages to
                     elevate the project to your desired level.
                   </div>
                 </button>
-                <button class="styles_container__cAeIB">
+                <button
+                  class="styles_container__cAeIB"
+                  onClick={() => {
+                    setSelectedFAQ(selectedFAQ === 3 ? -1 : 3);
+                  }}
+                >
                   <div class="flex gap-2 items-center justify-between">
                     <div class="title text-16 md:text-24 font-medium">
                       How is task management handled?
@@ -587,13 +622,22 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div class="answer text-14 md:text-20   ">
+                  <div
+                    class={`answer text-14 md:text-20 ${
+                      selectedFAQ === 3 ? "active mt-3 md:mt-5" : ""
+                    }`}
+                  >
                     Our team is managed by a Project Manager, ensuring precise
                     management of all tasks and communication through Notion
                     software, providing you peace of mind.
                   </div>
                 </button>
-                <button class="styles_container__cAeIB">
+                <button
+                  class="styles_container__cAeIB"
+                  onClick={() => {
+                    setSelectedFAQ(selectedFAQ === 4 ? -1 : 4);
+                  }}
+                >
                   <div class="flex gap-2 items-center justify-between">
                     <div class="title text-16 md:text-24 font-medium">
                       Does your team handle both design and development?
@@ -605,12 +649,21 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div class="answer text-14 md:text-20   ">
+                  <div
+                    class={`answer text-14 md:text-20 ${
+                      selectedFAQ === 4 ? "active mt-3 md:mt-5" : ""
+                    }`}
+                  >
                     Yes, our team comprises individuals who can work seamlessly
                     on both design and development concurrently.
                   </div>
                 </button>
-                <button class="styles_container__cAeIB">
+                <button
+                  class="styles_container__cAeIB"
+                  onClick={() => {
+                    setSelectedFAQ(selectedFAQ === 5 ? -1 : 5);
+                  }}
+                >
                   <div class="flex gap-2 items-center justify-between">
                     <div class="title text-16 md:text-24 font-medium">
                       How is communication managed during the project?
@@ -622,7 +675,11 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div class="answer text-14 md:text-20   ">
+                  <div
+                    class={`answer text-14 md:text-20 ${
+                      selectedFAQ === 5 ? "active mt-3 md:mt-5" : ""
+                    }`}
+                  >
                     Weekly sessions are held to discuss project progress, and
                     further communication is facilitated through Slack and
                     Notion.
@@ -631,7 +688,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          {/* <div class="fold">
+          <div class="fold">
             <div class="py-12">
               <div class="marquee-container">
                 <div class="marquee">
@@ -822,7 +879,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </div> */}
+          </div>
           <div class="fold">
             <div class="styles_container__lqnx9">
               <div class="wrapper wrapper-height h-[25rem] relative overflow-hidden">

@@ -185,8 +185,11 @@ export default function OurProjets() {
                 <div class="price">₹200</div>
               </div>
               <div class="product-text">
-                Unlock Your Shipping and Delivery Experience with 120 Vector
-                Illustrations
+                Bringing you sweet treats!
+                <br />
+                No preservatives or additives,
+                <br />
+                simply homemade.
               </div>
             </div>
           </a>

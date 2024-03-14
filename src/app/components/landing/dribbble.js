@@ -10,10 +10,17 @@ export default function AnantaDribbble() {
         </p>
       </div>
       <div class="flex flex-col lg:ml-auto relative">
-        <img
-          src="madeinindia.svg"
-          className="h-[11rem] fill-black stroke-black w-[11rem] absolute bottom-[11rem] right-0 rotate-12 lion"
-        />
+        <div className="h-[11rem] fill-black stroke-black w-[11rem] absolute bottom-[11rem] right-0 rotate-12">
+          <img src="madeinindia.svg" className="lion" />
+
+          <div className="h-[11rem] w-[11rem] flex absolute top-0 justify-center items-center">
+            <img
+              src="lion.svg"
+              className="h-[5.5rem] fill-black stroke-black w-[5.5rem] absolute"
+            />
+          </div>
+        </div>
+
         <div></div>
         <div class="hidden lg:block -mt-10 ml-auto">
           Over 4 thrilling years of experience!

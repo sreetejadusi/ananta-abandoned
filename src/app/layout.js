@@ -1,3 +1,4 @@
+import AnantaNavigationBar from "./components/ananta_navigation_bar";
 import "./globals.css";
 
 export const metadata = {
@@ -8,7 +9,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <AnantaNavigationBar />
+        <div class="h-[5.3125rem]  lg:h-[6.875rem]"></div>
+        {children}
+      </body>
     </html>
   );
 }

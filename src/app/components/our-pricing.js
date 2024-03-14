@@ -16,7 +16,7 @@ export default function OurPricing() {
                   Ignite your startup with a professional design team.
                 </div>
                 <div class="font-semibold text-32 md:text-48 mb-8 xl:mb-12">
-                  {isDiscounted ? "₹12,000/m" : "₹16,000/m"}
+                  {isDiscounted ? "₹16,000/m" : "₹18,000/m"}
                 </div>
                 <div
                   target="_blank"
