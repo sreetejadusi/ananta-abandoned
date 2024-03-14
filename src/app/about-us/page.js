@@ -1,6 +1,6 @@
 import Link from "next/link";
 import "./styles.module.css";
-export default function () {
+export default function AboutUs() {
   return (
     <div class="styles_container__B1lx_">
       <div class=" w-full   px-6">
@@ -623,7 +623,7 @@ export default function () {
             <div class="our-goal mx-auto max-w-about lg:gap-10 justi h-fit flex flex-col lg:flex-row w-full justify-between">
               <div class="flex flex-col justify-between mb-6 lg:mb-0">
                 <h3 class="text !font-semibold whitespace-nowrap">
-                  Get to know us,see what's up
+                  Get to know us,see what&apos;s up
                 </h3>
               </div>
               <div class="text w-fit !max-w-[40rem]">
