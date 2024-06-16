@@ -1,123 +1,42 @@
 export default function LandingHero() {
   return (
-    <h2 className="main-text mb-12">
-      <div className="flex flex-wrap">
-        <div
-          className="word inline- flex items-center mr-4"
-          style={{
-            translate: "none",
-            rotate: "none",
-            scale: "none",
-            transform: "translate(0px)",
-          }}
-        >
-          <div className="h-[130%] flex items-center overflow-hidden">
-            <span
-              className="relative text-inside will-change-auto"
-              style={{
-                translate: "none",
-                rotate: "none",
-                scale: "none",
-                transform: "translate(0px)",
-              }}
-            >
-              Transform
-            </span>
+    <div className="flex items-center justify-center h-screen pt-20">
+      <div className="wrap">
+        <div className="line">
+          <div className="left">
+            <div className="content">
+              <span className="spanSlow">Disc○ver the <br /> power ●f</span>
+            </div>
+          </div><div className="right">
+            <div className="content">
+              <span className="spanSlow">Disc●ver the<br />  power ●f</span>
+            </div>
           </div>
         </div>
-        <div
-          className="word inline- flex items-center mr-4"
-          style={{
-            translate: "none",
-            rotate: "none",
-            scale: "none",
-            transform: "translate(0px)",
-          }}
-        >
-          <div className="h-[130%] flex items-center overflow-hidden">
-            <span
-              className="relative text-inside will-change-auto"
-              style={{
-                translate: "none",
-                rotate: "none",
-                scale: "none",
-                transform: "translate(0px)",
-              }}
-            >
-              your
-            </span>
+        <div className="line">
+          <div className="left">
+            <div className="content">
+              <span className="spanSlow">em○ti○n driven<br />  design</span>
+            </div>
+          </div><div className="right">
+            <div className="content">
+              <span className="spanSlow">em○ti●n driven <br /> design</span>
+            </div>
           </div>
         </div>
-        <div
-          className="word inline- flex items-center mr-4"
-          style={{
-            translate: "none",
-            rotate: "none",
-            scale: "none",
-            transform: "translate(0px)",
-          }}
-        >
-          <div className="h-[130%] flex items-center overflow-hidden">
-            <span
-              className="relative text-inside will-change-auto"
-              style={{
-                translate: "none",
-                rotate: "none",
-                scale: "none",
-                transform: "translate(0px)",
-              }}
-            >
-              vision
-            </span>
+        <div className="line">
+          <div className="left">
+            <div className="content">
+              <span className="spanFast">with us.</span>
+            </div>
+          </div><div className="right">
+            <div className="content">
+              <span className="spanFast">with us.</span>
+            </div>
           </div>
         </div>
-        <div
-          className="word inline- flex items-center mr-4"
-          style={{
-            translate: "none",
-            rotate: "none",
-            scale: "none",
-            transform: "translate(0px)",
-          }}
-        >
-          <div className="h-[130%] flex items-center overflow-hidden">
-            <span
-              className="relative text-inside will-change-auto"
-              style={{
-                translate: "none",
-                rotate: "none",
-                scale: "none",
-                transform: "translate(0px)",
-              }}
-            >
-              into
-            </span>
-          </div>
-        </div>
-        <div
-          className="word inline- flex items-center mr-4"
-          style={{
-            translate: "none",
-            rotate: "none",
-            scale: "none",
-            transform: "translate(0px)",
-          }}
-        >
-          <div className="h-[130%] flex items-center overflow-hidden">
-            <span
-              className="relative text-inside will-change-auto"
-              style={{
-                translate: "none",
-                rotate: "none",
-                scale: "none",
-                transform: "translate(0px)",
-              }}
-            >
-              reality!
-            </span>
-          </div>
-        </div>
+        <p id="scrollmessage" className="text-white text-center duration-500">scroll to know more</p>
       </div>
-    </h2>
+    </div >
   );
 }

@@ -1,8 +1,8 @@
 export default function HamburgerMenu() {
   return (
-    <button class="hamburger flex cursor-pointer rounded-full">
+    <button className="hamburger flex cursor-pointer rounded-full">
       <svg
-        class=""
+        className=""
         width="24"
         height="24"
         viewBox="0 0 24 24"

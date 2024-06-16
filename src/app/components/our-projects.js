@@ -1,16 +1,16 @@
 export default function OurProjets() {
   return (
-    <div class="fold">
-      <div class="styles_container__IpxrY pad_layout">
-        <div class="section-title">projects</div>
-        <div class="flex justify-between -mt-4 items-end mb-6 lg:mb-12">
-          <div class="big-title">
+    <div className="fold">
+      <div className="styles_container__IpxrY pad_layout">
+        <div className="section-title">projects</div>
+        <div className="flex justify-between -mt-4 items-end mb-6 lg:mb-12">
+          <div className="big-title">
             Threading Our <br />
             Infinitiverse of Ideas
           </div>
-          <a class="!hidden lg:!block lg:mt-auto" href="/products">
-            <div class="flex !gap-4 more-btn  style_container__ZhG39">
-              <span class="initial items-center z-[2] flex gap-2 items-center">
+          <a className="!hidden lg:!block lg:mt-auto" href="/products">
+            <div className="flex !gap-4 more-btn  style_container__ZhG39">
+              <span className="initial items-center z-[2] flex gap-2 items-center">
                 More Solutions
                 <svg
                   width="24"
@@ -37,7 +37,7 @@ export default function OurProjets() {
               </span>
               <span
                 aria-hidden="true"
-                class="secondary  h-full z-[2] flex gap-2 items-center"
+                className="secondary  h-full z-[2] flex gap-2 items-center"
               >
                 Ideas&apos;s Infinte
                 <svg
@@ -63,17 +63,17 @@ export default function OurProjets() {
                   ></path>
                 </svg>
               </span>
-              <span class="flex !gap-4 more-btn  !mb-0 bg-box absolute !w-full h-full"></span>
+              <span className="flex !gap-4 more-btn  !mb-0 bg-box absolute !w-full h-full"></span>
             </div>
           </a>
         </div>
-        <div class="flex-col flex lg:grid lg:grid-cols-3 gap-8 ">
+        <div className="flex-col flex lg:grid lg:grid-cols-3 gap-8 ">
           <a href="https://stemquest.theananta.in">
-            <div class="styles_product___o3HF">
-              <div class="img-container mb-4">
+            <div className="styles_product___o3HF">
+              <div className="img-container mb-4">
                 <img src="stemquest.png" alt="" />
-                <div class="more">
-                  <span class="more-text">Buy now</span>
+                <div className="more">
+                  <span className="more-text">Buy now</span>
                   <svg
                     width="24"
                     height="24"
@@ -98,11 +98,11 @@ export default function OurProjets() {
                   </svg>
                 </div>
               </div>
-              <div class="title-line mb-3 flex w-full justify-between items-center">
-                <h6 class="product-title">STEMQuest</h6>
-                <div class="price">₹1500</div>
+              <div className="title-line mb-3 flex w-full justify-between items-center">
+                <h6 className="product-title">STEMQuest</h6>
+                <div className="price">₹1500</div>
               </div>
-              <div class="product-text">
+              <div className="product-text">
                 Discover | Learn | Create
                 <br />
                 Help your children learn with engaging STEM-based educational
@@ -111,11 +111,11 @@ export default function OurProjets() {
             </div>
           </a>
           <a href="https://autosmith.theananta.in">
-            <div class="styles_product___o3HF">
-              <div class="img-container mb-4">
+            <div className="styles_product___o3HF">
+              <div className="img-container mb-4">
                 <img src="autosmith.png" alt="AutoSmith Image" />
-                <div class="more">
-                  <span class="more-text">Buy now</span>
+                <div className="more">
+                  <span className="more-text">Buy now</span>
                   <svg
                     width="24"
                     height="24"
@@ -140,22 +140,22 @@ export default function OurProjets() {
                   </svg>
                 </div>
               </div>
-              <div class="title-line mb-3 flex w-full justify-between items-center">
-                <h6 class="product-title">AutoSmith</h6>
-                <div class="price">₹50</div>
+              <div className="title-line mb-3 flex w-full justify-between items-center">
+                <h6 className="product-title">AutoSmith</h6>
+                <div className="price">₹50</div>
               </div>
-              <div class="product-text">
+              <div className="product-text">
                 Connects nearby partnered local mechanics offering on-road
                 service.
               </div>
             </div>
           </a>
           <a href="https://handbaked.theananta.in">
-            <div class="styles_product___o3HF">
-              <div class="img-container mb-4">
+            <div className="styles_product___o3HF">
+              <div className="img-container mb-4">
                 <img src="bakery.png" alt="" />
-                <div class="more">
-                  <span class="more-text">Buy now</span>
+                <div className="more">
+                  <span className="more-text">Buy now</span>
                   <svg
                     width="24"
                     height="24"
@@ -180,11 +180,11 @@ export default function OurProjets() {
                   </svg>
                 </div>
               </div>
-              <div class="title-line mb-3 flex w-full justify-between items-center">
-                <h6 class="product-title">Hand Baked</h6>
-                <div class="price">₹200</div>
+              <div className="title-line mb-3 flex w-full justify-between items-center">
+                <h6 className="product-title">Hand Baked</h6>
+                <div className="price">₹200</div>
               </div>
-              <div class="product-text">
+              <div className="product-text">
                 Bringing you sweet treats!
                 <br />
                 No preservatives or additives,
@@ -194,9 +194,9 @@ export default function OurProjets() {
             </div>
           </a>
         </div>
-        <a class="!block mt-8 lg:!hidden" href="/products">
-          <div class="flex !gap-4 more-btn  style_container__ZhG39">
-            <span class="initial items-center z-[2] flex gap-2 items-center">
+        <a className="!block mt-8 lg:!hidden" href="/products">
+          <div className="flex !gap-4 more-btn  style_container__ZhG39">
+            <span className="initial items-center z-[2] flex gap-2 items-center">
               More Projects
               <svg
                 width="24"
@@ -223,7 +223,7 @@ export default function OurProjets() {
             </span>
             <span
               aria-hidden="true"
-              class="secondary  h-full z-[2] flex gap-2 items-center"
+              className="secondary  h-full z-[2] flex gap-2 items-center"
             >
               More Assets
               <svg
@@ -249,7 +249,7 @@ export default function OurProjets() {
                 ></path>
               </svg>
             </span>
-            <span class="flex !gap-4 more-btn  !mb-0 bg-box absolute !w-full h-full"></span>
+            <span className="flex !gap-4 more-btn  !mb-0 bg-box absolute !w-full h-full"></span>
           </div>
         </a>
       </div>
